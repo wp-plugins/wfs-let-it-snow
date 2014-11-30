@@ -3,7 +3,7 @@
  *  Plugin Name: WFS Let It Snow
  *  Plugin URI: http://wordpress.org/plugin/wfs-let-it-snow
  *  Description: A seasonal plugin that makes snow fall on your WordPress website.
- *  Version: 1.0.0
+ *  Version: 1.0.1
  *  Author: Winking Frog Studios
  *  Author URI: http://winkingfrog.com
  *  Licence: GPLv2
@@ -32,7 +32,7 @@
  *	Global Variables
 */
 
-$plugin_url 	= WP_PLUGIN_URL . '/wfs-letitsnow';
+$plugin_url 	= WP_PLUGIN_URL . '/wfs-let-it-snow';
 $plugin_img  	= $plugin_url . '/assets/img/';
 $plugin_css  	= $plugin_url . '/assets/css/';
 $plugin_js  	= $plugin_url . '/assets/js/';
