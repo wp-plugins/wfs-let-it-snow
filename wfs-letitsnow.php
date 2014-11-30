@@ -121,7 +121,7 @@ function wfs_letitsnow_options_page() {
 
 function wfs_letitsnow_admin_styles() {
 	
-	wp_enqueue_style( 'wfs_letitsnow_admin_css', plugins_url( 'wfs-letitsnow/assets/css/admin.css' ) );
+	wp_enqueue_style( 'wfs_letitsnow_admin_css', plugins_url( 'wfs-let-it-snow/assets/css/admin.css' ) );
 	
 }
 add_action( 'admin_head', 'wfs_letitsnow_admin_styles' );
@@ -134,9 +134,9 @@ function wfs_letitsnow_frontend_styles() {
 	
 	$settings = get_option( 'wfs_letitsnow' );
 	
-	wp_register_script( 'wfs_letitsnow_settings', plugins_url( 'wfs-letitsnow/assets/js/wfs-letitsnow.js' ), array('jquery','wfs_letitsnow_snowfall'), '', true );
+	wp_register_script( 'wfs_letitsnow_settings', plugins_url( 'wfs-let-it-snow/assets/js/wfs-letitsnow.js' ), array('jquery','wfs_letitsnow_snowfall'), '', true );
 	wp_localize_script( 'wfs_letitsnow_settings', 'settings', $settings );
-	wp_enqueue_script( 'wfs_letitsnow_snowfall', plugins_url( 'wfs-letitsnow/assets/js/snowfall.jquery.min.js' ), array('jquery'), '', true );
+	wp_enqueue_script( 'wfs_letitsnow_snowfall', plugins_url( 'wfs-let-it-snow/assets/js/snowfall.jquery.min.js' ), array('jquery'), '', true );
 	wp_enqueue_script( 'wfs_letitsnow_settings' );
 	
 }
