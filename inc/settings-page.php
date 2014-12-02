@@ -178,7 +178,8 @@
 						<div class="inside">
 							<a href="http://winkingfrog.com"><img src="<?php echo $plugin_img . 'WFS-Inline-Logo.png';?>" alt="Winking Frog Studios Ltd"></a>
 							<p>Visit our website at <a href="http://winkingfrog.com" target="_blank">http://winkingfrog.com</a>.</p>
-							<p>This plugin is distributed as a FREE plugin for you to enjoy. If it makes you happy and you feel like helping us develop and support more WordPress themes &amp; plugins, you can use the PayPal link below. No pressure though, this one is more for fun than anything else :-)</p>
+							<p> Or find us on:<br><a href="http://twitter.com/WinkingFrog" target="_blank">Twitter</a> | <a href="https://www.facebook.com/WinkingFrog" target="_blank">Facebook</a> | <a href="https://google.com/+WinkingFrogStudio" target="_blank">Google+</a></p>
+							
 						</div> <!-- .inside -->
 						
 					</div> <!-- .postbox -->
@@ -187,6 +188,7 @@
 					
 						<h3><span>Help us do more! (optional)</span></h3>
 						<div class="inside">
+							<p>This plugin is distributed as a FREE plugin for you to enjoy. If it makes you happy and you feel like helping us develop and support more WordPress themes &amp; plugins, you can use the PayPal link below. No pressure though, this one is more for fun than anything else :-)</p>
 							<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
 								<input type="hidden" name="cmd" value="_s-xclick">
 								<input type="hidden" name="hosted_button_id" value="9TNDZAD79QD8S">

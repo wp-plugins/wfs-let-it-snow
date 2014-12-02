@@ -4,7 +4,7 @@ Donate link: http://winkingfrog.com
 Tags: Snow,Snowfall,Snowflakes,Winter,Christmas,Xmas,Seasonal,Effects,WFS Let It Snow
 Requires at least: 4.0.0
 Tested up to: 4.0.1
-Stable tag: 1.0.1
+Stable tag: 1.0.2
 License: GPLv2 or later
 
 A super simple plugin that adds some seasonal snowfall to your website.
@@ -40,6 +40,9 @@ You can report bugs via email to support@winkingfrog.com
 
 == Changelog ==
 
+= 1.0.2 - 01 Dec 2014 =
+* Bug Fixes - Upgraded jQuery Snowfall plugin to version 1.7.2
+
 = 1.0.1 - 30 Nov 2014 =
 * Fixed - JavaScript and Image 404 errors
 
@@ -47,6 +50,9 @@ You can report bugs via email to support@winkingfrog.com
 * Initial public launch
 
 == Upgrade Notice ==
+
+= 1.0.2 =
+The jQuery plugin that WFS Let It Snow is based on has been updated to version 1.7.2. This update includes bug fixes and the removal of a polyfill that could cause issues on some browsers.
 
 = 1.0.1 =
 This one works!
